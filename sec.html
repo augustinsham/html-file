@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Your Name: projects, skills, and contact." />
+
+  <style>
+   
+    body {
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: rgb(51, 51, 51);
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #ff5722;
+    }
+
+    /* --- Header --- */
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    p {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* --- Navbar --- */
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background: #0077cc;
+      color: white;
+    }
+
+    /* --- Sections --- */
+    section {
+      background: white;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 800px;
+      animation: fadeIn 10s ease;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 5px;
+    }
+
+    figure {
+      text-align: center;
+      margin: 15px 0;
+    }
+    figure img {
+      border-radius: 50%;
+      border: 3px solid #0077cc;
+    }
+    
+    /* --- Projects --- */
+    article {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-left: 4px solid #0077cc;
+      background: #f9fbff;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    article:hover {
+      transform: translateX(-5px);
+    }
+
+    details summary {
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    /* --- Skills --- */
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #eef6ff;
+      margin: 5px 0;
+      padding: 8px;
+      border-radius: 6px;
+  }
+    ul li:hover {
+      background: #d6ecff;
+    }
+
+    /* --- Contact Form --- */
+    form {
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #0077cc;
+      color: white;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #ff5722;
+    }
+
+    /* --- Footer --- */
+    hr {
+      margin: 30px auto;
+      max-width: 800px;
+      border: none;
+      border-top: 2px solid #eee;
+    }
+
+    
+  </style>
+</head>
+<body>
+    <h1>Your Name</h1>
+    <p>Job Title • City, Country</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  <hr />
+
+    <!-- === ABOUT SECTION === -->
+    <section id="about">
+      <h2>About</h2>
+      <figure>
+        <img src="dog.jpeg" alt="Portrait of Your Name" width="160" height="160" />
+        <figcaption>A short caption about you.</figcaption>
+      </figure>
+      <p>
+        Write a short bio here. Mention what you do, what you enjoy building, and what
+        you are looking for. Keep it concise and friendly.
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>Location: City, Country</li>
+        <li>Open to: Internships • Full-time • Freelance</li>
+      </ul>
+    </section>
+
+  <hr />
+
+    <!-- === PROJECTS SECTION === -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Project One</h3>
+        <p>
+          One-line summary of what the project does and why it matters. Add a link to
+          the live demo or repository below.
+        </p>
+        <p>
+          Links:
+          <a href="#">Live Demo</a> •
+          <a href="#">Source Code</a>
+        </p>
+        <details>
+          <summary>More details</summary>
+          <ul>
+            <li>Your role: designer/developer/etc.</li>
+            <li>What you learned or solved.</li>
+            <li>Any notable results or numbers.</li>
+          </ul>
+        </details>
+      </article>
+
+      <article>
+        <h3>Project Two</h3>
+        <p>
+          Brief description of another project. Mention tech used or the problem solved.
+        </p>
+        <p>
+          Links:
+          <a href="#">Live Demo</a> •
+          <a href="#">Source Code</a>
+        </p>
+        <details>
+          <summary>More details</summary>
+          <ul>
+            <li>Feature A or challenge overcome.</li>
+            <li>Feature B or interesting insight.</li>
+          </ul>
+        </details>
+      </article>
+
+      <article>
+        <h3>Project Three</h3>
+        <p>
+          Short description. If this is a class or hackathon project, say so.
+        </p>
+        <p>
+          Links:
+          <a href="#">Live Demo</a> •
+          <a href="#">Source Code</a>
+        </p>
+      </article>
+    </section>
+
+  <hr />
+
+    <!-- === SKILLS SECTION === -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <h3>Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+
+      <h3>Frameworks & Tools</h3>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>FastAPI</li>
+        <li>TensorFlow</li>
+        <li>MongoDB</li>
+      </ul>
+
+      <h3>Highlights</h3>
+      <ul>
+        <li>Built and shipped X+ projects</li>
+        <li>Won ABC Hackathon (2024)</li>
+        <li>Speaker at Local Dev Meetup</li>
+      </ul>
+    </section>
+
+  <hr />
+
+    <!-- === CONTACT SECTION === -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Prefer email? Use the link below, or this simple mail form.</p>
+      <p><a href="mailto:you@example.com">Send me an email</a></p>
+
+      <form action="mailto:you@example.com" method="post" enctype="text/plain">
+        <p>
+          <label for="name">Your Name</label><br />
+          <input id="name" name="Name" type="text" required />
+        </p>
+        <p>
+          <label for="email">Your Email</label><br />
+          <input id="email" name="Email" type="email" required />
+        </p>
+        <p>
+          <label for="message">Message</label><br />
+          <textarea id="message" name="Message" rows="5" cols="30" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+
+      <h3>Find me online</h3>
+      <ul>
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Personal Blog</a></li>
+      </ul>
+    </section>
+
+  <hr />
+</body>
+</html>
+>

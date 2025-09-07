@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="
+  width=device-width, initial-scale=1.0">
+  <title>Centered Table</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;   /* Aligns horizontally */
+      align-items: center;       /* Aligns vertically */
+      height: 100vh;             /* Full height */
+      background-color: #f2f2f2;
+    }
+
+    table {
+      border: 2px solid black;   /* Border for table */
+      border-collapse: collapse; /* Merge cell borders */
+      text-align: center;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    th, td {
+      border: 1px solid black;   /* Border for cells */
+      padding: 10px 20px;
+    }
+
+    th {
+      background: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>25</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>22</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Ravi</td>
+      <td>28</td>
+      <td>India</td>
+    </tr>
+  </table>
+</body>
+</html>

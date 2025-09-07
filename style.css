@@ -1,0 +1,229 @@
+/* General */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://picsum.photos/1200/400?travel") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+/* Flex Content */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* Testimonials */
+.testimonials {
+  background: #ecf0f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+
+/* Call to Action */
+.cta {
+  background: #f39c12;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta button {
+  padding: 12px 20px;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.cta button:hover {
+  background: #34495e;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery figure {
+  text-align: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Travel Quote */
+.quote {
+  background: #34495e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-style: italic;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+/* About Page Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Sidebar 1 part, Content 2 parts */
+  gap: 20px;
+  padding: 20px;
+  min-height: 70vh; /* keeps layout balanced */
+}
+
+.sidebar {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.about-content {
+  display: grid;
+  place-items: center; /* centers form */
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.about-content h2, 
+.about-content p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  display: grid;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px; /* keeps form centered */
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+
+
+.contact-form button {
+  padding: 12px;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #34495e;
+}

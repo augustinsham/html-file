@@ -1,0 +1,9 @@
+h1{
+    color:aqua
+}
+body{
+    background-image: url(dog.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
